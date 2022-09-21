@@ -1,10 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
+import DataForm from './components/forms/HealthDataForm';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">Hello world</div>
+    <>
+      <h1 className="app">Dashboard</h1>
+      <DataForm />
+    </>
   );
 }
 
