@@ -1,4 +1,5 @@
 import HealthDataForm from './components/HealthDataForm';
+import HealthData from './components/HealthData';
 
 import './App.css';
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <h1 className="app">Dashboard</h1>
       <HealthDataForm />
+      <HealthData />
     </>
   );
 }
