@@ -1,10 +1,10 @@
 import axios from 'axios'
 
-import { HealthData } from './interfaces';
+import { HealthDataInterface} from './interfaces';
 
 const firebaseUrl = process.env.REACT_APP_FIREBASE_URL
 
-const postHealthData = (healthData: HealthData) => {
+const postHealthData = (healthData: HealthDataInterface) => {
     console.log(healthData);
 
     axios.post(`${firebaseUrl}/health.json`, healthData)
